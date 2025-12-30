@@ -1,0 +1,19 @@
+{
+  "appId": "com.campusdash.app",
+  "productName": "CampusDash",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "win": {
+    "target": "nsis"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}

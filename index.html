@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusDash</title>
+  <script>
+    // Immediately apply theme to avoid flash
+    let savedTheme = localStorage.getItem('theme') || 'dark';
+    // Migrate old theme names to new ones
+    if (!['dark', 'light'].includes(savedTheme)) {
+      savedTheme = 'dark';
+      localStorage.setItem('theme', savedTheme);
+    }
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
