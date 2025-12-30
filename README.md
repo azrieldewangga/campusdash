@@ -1,6 +1,6 @@
 # CampusDash - Student Productivity Desktop App
 
-Desktop application built with Electron, React, TypeScript, and TailwindCSS (DaisyUI).
+Desktop application built with Electron, React, TypeScript, and TailwindCSS.
 Designed to help students manage assignments, schedules, grades, and cashflow.
 
 ## Features
