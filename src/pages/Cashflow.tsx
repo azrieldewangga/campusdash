@@ -28,6 +28,8 @@ import TransactionModal from '../components/cashflow/TransactionModal';
 import { OverviewChart } from '../components/cashflow/OverviewChart';
 import { Separator } from "@/components/ui/separator";
 import { useTheme } from "@/components/theme-provider";
+import { SkeletonCard } from '../components/shared/Skeleton';
+import { EmptyState } from '../components/shared/EmptyState';
 
 const RATE = 16000;
 

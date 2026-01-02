@@ -24,6 +24,8 @@ import {
     PopoverTrigger,
 } from "@/components/ui/popover";
 import { Label } from "@/components/ui/label";
+import { SkeletonCard } from '../components/shared/Skeleton';
+import { EmptyState } from '../components/shared/EmptyState';
 
 const DAYS = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'];
 const TIMES = [

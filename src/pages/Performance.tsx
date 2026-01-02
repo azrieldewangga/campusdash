@@ -22,6 +22,8 @@ import {
     PaginationNext,
     PaginationPrevious,
 } from "@/components/ui/pagination";
+import { SkeletonCard, SkeletonTable } from '../components/shared/Skeleton';
+import { EmptyState } from '../components/shared/EmptyState';
 
 const Performance = () => {
     const { grades, fetchGrades, updateGrade, userProfile, getSemesterCourses } = useStore();

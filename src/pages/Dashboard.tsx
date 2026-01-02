@@ -24,6 +24,7 @@ import { ReportsTab } from "@/components/dashboard/ReportsTab"
 import { NotificationsTab } from "@/components/dashboard/NotificationsTab"
 import { useMemo } from "react"
 import { differenceInDays, isPast, isToday, setDate, addMonths } from "date-fns"
+import { SkeletonCard } from "@/components/shared/Skeleton"
 
 export default function Dashboard() {
     const { transactions, currency, userProfile, assignments, subscriptions } = useStore();
